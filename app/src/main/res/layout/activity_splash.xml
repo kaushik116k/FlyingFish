@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:background="@drawable/splash">
+
+    <ImageView
+        android:id="@+id/splash"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/splash_icon"
+        android:layout_below="@+id/textView1"/>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Flying Fish"
+        android:textSize="34sp"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/design_default_color_error"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/splash"
+        android:text="By K.KAUSHIK"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal" />
+</RelativeLayout>
